@@ -1,0 +1,25 @@
+.info{
+    height:300px;
+    width:300px;
+   
+}
+.info img{
+    height: 150px;
+    width:150px;
+}
+
+.btn1{
+    background-color: red;
+    height: 50px;
+    width:40px;
+}
+.btn2{
+    background-color: red;
+    height: 50px;
+    width:80px;
+}
+
+h1{
+    color:blue
+}
+
