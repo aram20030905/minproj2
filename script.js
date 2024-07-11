@@ -83,18 +83,21 @@ function AddItem(id) {
             cat.appendChild(newItem);
         })
     }
-
-FetchInfo(".target",0)
-FetchInfo(".target1",1)
-FetchInfo(".target2",2)
-FetchInfo(".target3",3)
-FetchInfo(".target4",4)
-FetchInfo(".target5",5)
-FetchInfo(".target6",6)
-FetchInfo(".target7",7)
-FetchInfo(".target8",8)
-FetchInfo(".target9",9)
-FetchInfo(".target10",10)
-FetchInfo(".target11",11)
-FetchInfo(".target12",12)
-FetchInfo(".target13",13)
+// Loop to fetch info for multiple targets
+for (let i = 0; i <= 13; i++) {
+    FetchInfo(`.target${i}`, i);
+}
+// FetchInfo(".target",0)
+// FetchInfo(".target1",1)
+// FetchInfo(".target2",2)
+// FetchInfo(".target3",3)
+// FetchInfo(".target4",4)
+// FetchInfo(".target5",5)
+// FetchInfo(".target6",6)
+// FetchInfo(".target7",7)
+// FetchInfo(".target8",8)
+// FetchInfo(".target9",9)
+// FetchInfo(".target10",10)
+// FetchInfo(".target11",11)
+// FetchInfo(".target12",12)
+// FetchInfo(".target13",13)
